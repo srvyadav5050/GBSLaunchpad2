@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBS Tool Components</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CZN0VF8CN1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CZN0VF8CN1');
+    </script>
+</head>
+<body>
+    <!-- Existing Content -->
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Deloitte.svg" alt="Deloitte Logo" width="100">
+        </div>
+        <div class="actions">
+            <a href="#" class="try-for-free">This is a Beta version</a>
+        </div>
+    </header>
+    
+    <div class="top-banner">
+        <p>Spark your Transformation. Drive Efficiency. Discover the Power of GBS with Deloitte’s GBS Launchpad. Try now!</p>
+    </div>
+    
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Try GBS Launchpad for free.</h1>
+            <p>This interactive tool is designed to provide guidance on the benefits and 
+                strategies of establishing a Global Business Services (GBS) center.
+                <br><br>By leveraging intuitive navigation, advanced data visualization, 
+                precise cost calculators, and strategic location insights, 
+                our tool enables informed decision-making and strategic planning, 
+                to help drive the business forward, ensuring a future-ready, competitive edge in the global market.</p>
+            <div class="buttons">
+                <a href="#" class="btn" id="start-here-btn">Start Here</a>
+            </div>
+        </div>
+        <div class="banner-image">
+            <img src="windmill.png" alt="Banner Image">
+        </div>
+    </section>
+    
+    <div class="reach-us">
+        <a href="#" class="btn-reach-us" id="reach-us-btn">Reach Us</a>
+    </div>
+
+    <!-- GBS Tools Section -->
+    <section class="gbs-tools">
+        <h1>Triple the Insight, Triple the Impact. Explore our tool components!</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="icon">
+                    <img src="global_reach_icon.png" alt="Global Reach Icon">
+                </div>
+                <h2>Global reach & influence</h2>
+                <p>Know how GBS delivers value across countries, and bringing positive impact to businesses</p>
+                <a href="#" id="global_reach_icon">Learn more</a>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="india_leading_hub_icon.png" alt="India Leading Hub Icon">
+                </div>
+                <h2>India: The Leading Hub</h2>
+                <p>Discover why India stands at the forefront of GBS excellence, driving CXO objectives</p>
+                <a href="#" id="india_leading_hub_icon">Learn more</a>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="inside_gbs_center_icon.png" alt="Inside GBS Center Icon">
+                </div>
+                <h2>Inside the GBS center</h2>
+                <p>Take an exclusive look into the operations and financials of a typical center</p>
+                <a href="#" id="inside_gbs_center_icon">Learn more</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Interactive Charts Section -->
+    <section class="charts-section">
+        <canvas id="myChart" width="400" height="20"></canvas>
+    </section>
+
+    <!-- Audio Modals -->
+    <div id="audio-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <audio id="demo-audio" width="100%" controls>
+                <source src="INTRO.MP3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <div id="audio-modal2" class="modal2">
+        <div class="modal-content2">
+            <span class="close">&times;</span>
+            <audio id="demo-audio2" width="100%" controls>
+                <source src="GLOBAL.MP3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <div id="audio-modal3" class="modal3">
+        <div class="modal-content3">
+            <span class="close">&times;</span>
+            <audio id="demo-audio3" width="100%" controls>
+                <source src="INDIA.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <div id="audio-modal4" class="modal4">
+        <div class="modal-content4">
+            <span class="close">&times;</span>
+            <audio id="demo-audio4" width="100%" controls>
+                <source src="CALCULATORS.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body
